@@ -47,7 +47,7 @@ cd build-gcc
 						--disable-nls							\
 						--prefix=/usr/local/
 make all-gcc
-make install-gcc
+sudo make install-gcc
 
 # build xv6
 echo "Building xv6..."
