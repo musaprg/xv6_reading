@@ -8,6 +8,6 @@ Vagrant.configure("2") do |config|
 
   config.vm.provision "shell", inline: <<-SHELL
     apt-get update
-    apt-get install build-essential gdb libgmp3-dev libmpfr-dev libmpfr4 libmpfr4-dbg mpc qemu
+    apt-get install -y build-essential gdb libgmp3-dev libmpfr-dev libmpfr4 libmpfr4-dbg mpc qemu
   SHELL
 end
