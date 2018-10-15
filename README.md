@@ -8,6 +8,13 @@ Vagrant https://www.vagrantup.com/downloads.html
 
 VirtualBox https://www.virtualbox.org/wiki/Downloads
 
+### For MacOSX
+
+```bash
+brew cask install virtualbox
+brew cask install vagrant
+```
+
 ## Get Started
 
 ```
