@@ -17,3 +17,9 @@ vagrant ssh
 cd src
 make qemu-nox
 ```
+
+## QEMU Commands
+
+Ctrl+A x: Quit QEMU
+
+Ctrl+A h: Show QEMU help
