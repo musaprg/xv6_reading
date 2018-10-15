@@ -4,9 +4,7 @@
 Vagrant.configure("2") do |config|
   config.vm.box = "ubuntu/xenial64"
 
-  config.vm.provider :virtualbox do |vbox|
-    vbox.name = "xv6-sandbox"
-  end
+  config.vm.define "xv6-sandbox"
 
   config.vm.synced_folder "./src", "/home/vagrant/src"
 
