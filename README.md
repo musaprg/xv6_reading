@@ -15,5 +15,5 @@ vagrant up
 vagrant ssh
 # パスワードを聞かれたら vagrant と打ち込んでください
 cd src
-make qemu
+make qemu-nox
 ```
