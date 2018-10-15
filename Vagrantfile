@@ -8,7 +8,7 @@ Vagrant.configure("2") do |config|
     vbox.name = "xv6-sandbox"
   end
 
-  config.vm.synced_folder "./src", "/home/vagrant/xv6-public"
+  config.vm.synced_folder "./src", "/home/vagrant/src"
 
   config.vm.provision "shell", inline: <<-SHELL
     apt-get update
